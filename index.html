@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Hi Dictionary</h1>
+        <div class="input-group">
+            <input id="wordEntered" type="text" placeholder="Enter a word..." aria-label="Word to look up">
+            <button id="btn" aria-label="Submit word">Submit</button>
+        </div>
+        <a href="#" id="themeToggle" aria-label="Toggle theme">
+            <i class="fas fa-sun"></i>
+        </a>
+        
+    </header>
+
+    <main>
+        <div class="left">
+            <div id="resultContainer">
+                <h2>Welcome to Hi Dictionary</h2>
+                <p>This dictionary app is a powerful tool that provides the meaning, examples of usage, synonyms, and
+                    antonyms of any word you search for. Users simply need to type a word, and the app instantly
+                    displays its details. If the word is not available, the app shows an error message along with a
+                    retry option.Additionally, the app includes a light and dark mode toggle to enhance user experience
+                    and accessibility.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Dictionary App. Enhancing your vocabulary, powered by Kajal Padala.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
