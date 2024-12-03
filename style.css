@@ -22,7 +22,7 @@ main {
 
 header {
     width: 100%;
-    padding: 15px 20px;
+    padding: 15px 20px 15px 0;
     background-color: #243b55;
     color: #fff;
     display: flex;
@@ -37,6 +37,7 @@ header {
 header h1 {
     font-family: "Sour Gummy", sans-serif;
     font-size: 1.8rem;
+    left:3vw;
 }
 
 .input-group {
@@ -118,6 +119,7 @@ footer {
     font-size: 3vh;
     color:white;
     padding-left:1vw;
+    margin-top: 1vh;
 }
 body.light-mode header,
 body.light-mode footer {
